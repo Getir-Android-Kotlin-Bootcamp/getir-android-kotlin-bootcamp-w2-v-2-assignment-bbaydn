@@ -5,6 +5,7 @@
 ## Ekran Görüntüleri
 
 ![Map Ekranı](map.jpg)
+![Video_Record](Screen_Recording_20240331_224446_Food%20Couriers.mp4)
 
 ### Yapılacaklar
 
