@@ -8,4 +8,5 @@
     <string name="title_activity_set_location">SetLocation</string>
     <string name="open_map">Open the map</string>
     <string name="set_location">Set Location</string>
+    <string name="where_is_your_location">Where is your location?</string>
 </resources>

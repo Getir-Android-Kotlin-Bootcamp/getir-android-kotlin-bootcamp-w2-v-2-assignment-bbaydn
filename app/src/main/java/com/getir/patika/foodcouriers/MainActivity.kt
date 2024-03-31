@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tabLayout: TabLayout
     private lateinit var viewPager2: ViewPager2
     private lateinit var pagerAdapter: PagerAdapter
-    lateinit var fab: FloatingActionButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         }
         viewPager2.adapter = pagerAdapter
 
-        fab = findViewById(R.id.fab_open_map)
+        val fab: FloatingActionButton = findViewById(R.id.fab_open_map)
         fab.setOnClickListener {
             val navController = findNavController(R.id.nav_host_fragment)
             navController.navigate(R.id.action_createAccountFragment_to_setLocation2)
